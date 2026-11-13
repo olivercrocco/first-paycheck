@@ -32,6 +32,9 @@ let html = src
     '<title>First Paycheck</title>\n<meta name="description" content="A free paycheck and budget tool for formerly incarcerated individuals. See take-home pay after 2026 federal and Louisiana taxes and plan the costs that come first after release.">'
   );
 
+// Link back to the toolkit page on the website (the single offline file is left as is).
+html = html.replace(/(<p class="sub">[\s\S]*?<\/p>)/, "$1\n    <p class=\"sub\"><a href=\"/reentry/\" style=\"color:#abe2e8;font-weight:700\">\u2190 All reentry tools</a></p>");
+
 if (html.includes("<script>") || /<script id=/.test(html)) throw new Error("inline script left in web build");
 
 mkdirSync(outDir, { recursive: true });
