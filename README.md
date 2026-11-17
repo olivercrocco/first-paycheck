@@ -4,7 +4,7 @@ A free paycheck and budget tool for formerly incarcerated individuals. It shows 
 
 Try it at https://olivercrocco.com/first-paycheck/, or download `first-paycheck.html` and open it in any browser. The single file works without the internet, so it can be shared on a USB drive or used on a laptop in a classroom.
 
-It was built for a pre-release employment skills course in Louisiana and is a companion to the [Reentry Resume Builder](https://github.com/olivercrocco/reentry-resume-builder). The tax figures are for Louisiana; the rest applies anywhere in the United States.
+It was built for an employment skills course in a Louisiana reentry bridge program for people in their first year after release, and is a companion to the [Reentry Resume Builder](https://github.com/olivercrocco/reentry-resume-builder). The tax figures are for Louisiana; the rest applies anywhere in the United States.
 
 ## What it does
 
